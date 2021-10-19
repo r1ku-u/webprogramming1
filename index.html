@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>日本大学文理学部情報科学科 Webプログラミングの演習課題</title>
+    <meta name="description" content="このサイトは、日本大学文理学部情報科学科2年後期専門選択科目Webプログラミング課題演習2である。">
+    <link href="img/navigationj_home.ico">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div id="mainvisual">
+            <img src="img/navigationj_home.png">
+        </div>
+
+        <section id="about" class="wrapper">
+            <h2 class="section-title">概要</h2>
+            <div class="content text">
+                <p>
+                    このサイトは、日本大学文理学部情報科学科 Webプログラミングの演習課題である。
+                </p>
+            </div>
+        </section>
+
+        <section id="element" class="wrapper">
+            <h2 class="section-title">3つの要素</h2>
+            <ul>
+                <li>
+                    <h3 class="content-title center">li要素</h3>
+                    <ol>
+                        <li class="bold">説明</li>
+                        <p>HTML の &lt;li&gt; 要素は、リストの項目を表すために用いられる。この要素は、その項目が属する順序付きリスト (&lt;ol&gt;)、順序なしリスト (&lt;ul&gt;)、メニュー (&lt;menu&gt;) のいずれかの子要素として配置する必要がある。メニュー要素および順序なしリスト内においては、リストの項目は通常、行頭文字伴って表示され、順序付きリスト内では、数字や文字による連番のリストマーカーを伴って表示される。</p>
+                        <li class="bold">マークアップ例</li>
+                        <p>
+                            &lt;p&gt;課題演習&lt;/p&gt;<br>
+                            <br> &lt;ul&gt;
+                            <br> &emsp;&emsp;&lt;li&gt;課題1&lt;/li&gt;
+                            <br> &emsp;&emsp;&lt;li&gt;課題2&lt;/li&gt;
+                            <br> &emsp;&emsp;&lt;li&gt;課題3&lt;/li&gt;
+                            <br> &lt;/ul&gt;
+                            <br>
+                        </p>
+                        <li class="bold">動作結果</li>
+                        <p>課題演習
+                            <ul>
+                                <li>課題1</li>
+                                <li>課題2</li>
+                                <li>課題3</li>
+                            </ul>
+                        </p>
+                    </ol>
+                </li>
+                <li>
+                    <h3 class="content-title center">br要素</h3>
+                    <ol>
+                        <li class="bold">説明</li>
+                        <p>HTML の &lt;br&gt; 要素 は、文中に改行（キャリッジリターン）を生成する。歌詞や住所など、行の分割が重要な場合に有用である。</p>
+                        <li class="bold">マークアップ例</li>
+                        <p>
+                            &lt;p&gt; Let&rsquo;s just forget&lt;br&gt;<br> &emsp;&emsp;Everything said&lt;br&gt;<br> &emsp;&emsp;And everything we did&lt;br&gt;<br> &emsp;&emsp;Best friends and better halves&lt;br&gt;<br> &lt;br&gt;
+                            <br> &emsp;&emsp;Goodbyes&lt;br&gt;
+                            <br> &emsp;&emsp;And the autumn night&lt;br&gt;<br> &emsp;&emsp;When we realized&lt;br&gt;<br> &emsp;&emsp;We were falling out of love<br> &lt;/p&gt;
+                        </p>
+                        <li class="bold">動作結果</li>
+                        <p> Let’s just forget<br> Everything said<br> And everything we did<br> Best friends and better halves<br>
+                            <br> Goodbyes
+                            <br> And the autumn night<br> When we realized<br> We were falling out of love
+                        </p>
+
+                    </ol>
+                </li>
+                <li>
+                    <h3 class="content-title center">s要素</h3>
+                    <ol>
+                        <li class="bold">説明</li>
+                        <p>HTML の &lt;s&gt; 要素は取り消し線を引いた文字列を表示する。 &lt;s&gt; 要素はすでに適切または正確ではなくなった事柄を表現する。しかし、文書の修正を示す場合、 &lt;s&gt; 要素は適切ではない。この場合は &lt;del&gt; と &lt;ins&gt; の方が適しているので、こちらを使用する。</p>
+                        <li class="bold">マークアップ例</li>
+                        &lt;p&gt;&lt;s&gt;好評発売中&lt;/s&gt;&lt;/p&gt;<br> &lt;p&gt;販売停止中&lt;/p&gt;
+                        <li class="bold">動作結果</li>
+                        <p><s>好評発売中</s></p>
+                        <p>販売停止中</p>
+                    </ol>
+                </li>
+            </ul>
+        </section>
+
+        <section id="element" class="wrapper">
+            <h2 class="references">参考文献</h2>
+            <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/li">MDN Web Docs &lt;li&gt;</a></p>
+            <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/br">MDN Web Docs &lt;br&gt;: 改行要素</a></p>
+            <p><a href="https://developer.mozilla.org/ja/docs/Web/HTML/Element/s">MDN Web Docs &lt;s&gt;</a></p>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <p>&copy; 5420044 / 安齋 陸</p>
+    </footer>
+
+</body>
+
+</html>
